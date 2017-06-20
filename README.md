@@ -129,6 +129,11 @@ I encourage you to read through Section 1 so you have a better idea of what each
 
 ### bootstrap.sh script
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/dev-setup-resources/master/res/commands.png">
+  <br/>
+</p>
+
 The `bootstrap.sh` script will sync the mobile-dev-setup repo to your local home directory.  This will include customizations for Vim, bash, curl, git, tab completion, aliases, a number of utility functions, etc.  Section 2 of this repo describes some of the customizations.
 
 #### Running with Git
@@ -169,6 +174,11 @@ You could also use `~/.extra` to override settings, functions, and aliases from 
 
 ### xcode-setup.sh script
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/dev-setup-resources/master/res/xcode.jpg">
+  <br/>
+</p>
+
 Run the `xcode-setup.sh` script:
 
     $ ./xcode-setup.sh
@@ -199,6 +209,11 @@ If you're running 10.8 or older, you'll need to go to [http://developer.apple.co
 Once you reach the downloads page, search for "command line tools", and download the latest **Command Line Tools (OS X Mountain Lion) for Xcode**. Open the **.dmg** file once it's done downloading, and double-click on the **.mpkg** installer to launch the installation. When it's done, you can unmount the disk in Finder.
 
 ### fresh-setup.sh script
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/dev-setup-resources/master/res/homebrew2.png">
+  <br/>
+</p>
 
 When setting up a new Mac, you may want to install [Homebrew](http://brew.sh/), a package manager that simplifies installing and updating applications or libraries.
 
