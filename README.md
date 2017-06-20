@@ -91,13 +91,10 @@ Run all:
 
     $ ./.dots all
 
-Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`:
+Run `bootstrap.sh`, `xcode-setup.sh`, `fresh-setup.sh`, and `osx-setup.sh`:
 
-    $ ./.dots bootstrap osxprep brew osx
+    $ ./.dots bootstrap xcode-setup fresh-setup osx-setup
 
-Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydata.sh`, `aws.sh`, and `datastores.sh`:
-
-    $ ./.dots bootstrap osxprep brew osx pydata aws datastores
 
 #### Running without Git
 
@@ -239,7 +236,7 @@ To set up an Android development environment, run the `android.sh` script:
 
     $ ./android-setup.sh
 
-[Section 4: Android Development](#section-4-android-development) describes the installed packages and usage.
+[Section 3: Android Development](#section-3-android-development) describes the installed packages and usage.
 
 
 ## Section 2: General Apps and Tools
@@ -503,7 +500,7 @@ To see what you have installed (with their version numbers):
 
 #### Installation
 
-`brew.sh` provides [rbenv](https://github.com/rbenv/rbenv) and [ruby-build](https://github.com/rbenv/ruby-build) which allow you to manage multiple versions of Ruby on the same machine.  `brew.sh` adds the following line to your `.extra` file to initialize `rbenv`:
+`fresh-setup.sh` provides [rbenv](https://github.com/rbenv/rbenv) and [ruby-build](https://github.com/rbenv/ruby-build) which allow you to manage multiple versions of Ruby on the same machine.  `fresh-setup.sh` adds the following line to your `.extra` file to initialize `rbenv`:
 
 ```
 eval "$(rbenv init -)"
@@ -617,17 +614,17 @@ If you prefer to install it separately, you can download it [here](https://www.j
 
 ### Contributions
 
-Bug reports, suggestions, and pull requests are [welcome](https://github.com/donnemartin/dev-setup/issues)!
+Bug reports, suggestions, and pull requests are [welcome](https://github.com/gurpreetsk95/mobile-dev-setup/issues)!
 
 ### Credits
 
-See the [Credits Page](https://github.com/donnemartin/dev-setup/blob/master/CREDITS.md).
+See the [Credits Page](https://github.com/gurpreetsk95/mobile-dev-setup/blob/master/CREDITS.md).
 
 ## Contact Info
 
 Feel free to contact me to discuss any issues, questions, or comments.
 
-My contact info can be found on my [GitHub page](https://github.com/donnemartin).
+My contact info can be found on my [GitHub page](https://github.com/gurpreetsk95).
 
 ### License
 
