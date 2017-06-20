@@ -1,5 +1,7 @@
-mobile-dev-setup
-================
+<p align="center">
+  <img src="/blob/master/images/mobile-dev-setup.png" align="center">
+  <br/>
+</p>
 
 ## Motivation
 
@@ -635,7 +637,7 @@ Bug reports, suggestions, and pull requests are [welcome](https://github.com/gur
 
 See the [Credits Page](https://github.com/gurpreetsk95/mobile-dev-setup/blob/master/CREDITS.md).
 
-## Contact Info
+### Contact Info
 
 Feel free to contact me to discuss any issues, questions, or comments.
 
