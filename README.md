@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/blob/master/images/mobile-dev-setup.png" align="center">
+  <img src="/images/mobile-dev-setup.png" align="center">
   <br/>
 </p>
 
