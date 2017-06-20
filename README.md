@@ -1,10 +1,6 @@
 mobile-dev-setup
 ================
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/donnemartin/dev-setup-resources/master/res/repo-header.gif">
-</p>
-
 ## Motivation
 
 Setting up a new developer machine can be an **ad-hoc, manual, and time-consuming** process.
@@ -13,14 +9,14 @@ Setting up a new developer machine can be an **ad-hoc, manual, and time-consumin
 * **OS X updates and Xcode Command Line Tools**
 * **OS X defaults** geared towards developers
 * **Developer tools**: Vim, bash, tab completion, curl, git, GNU core utils, Python, Ruby, etc
-* **Developer apps**: iTerm2, Sublime Text, Atom, Chrome, etc
+* **Developer apps**: iTerm2, Sublime Text, Atom, Chrome, Firefox etc
 * **Android development**: Java, Android SDK, Android Studio, IntelliJ IDEA
 
 ### Customisations
 
-If you're interested in automation, `dev-setup` provides a customizable [setup script](#single-setup-script).  There's really no one-size-fits-all solution for developers so you're encouraged to make tweaks to suit your needs.
+If you're interested in automation, `mobile-dev-setup` provides a customizable [setup script](#single-setup-script).  There's really no one-size-fits-all solution for developers so you're encouraged to make tweaks to suit your needs.
 
-[Credits](#credits): This repo builds on the awesome work from [Donne Martin](https://github.com/donnemartin/dev-setup).
+[Credits](#credits): This repo builds on the awesome work from [Donne Martin](https://github.com/donnemartin).
 
 
 ### Sections Summary
@@ -358,7 +354,7 @@ Since we spend so much time in the terminal, we should try to make it a more ple
 
 #### Configuration
 
-The [bootstrap.sh script](#bootstrapsh-script) and [osx.sh script](#osxsh-script) contain terminal customizations.
+The [bootstrap.sh script](#bootstrapsh-script) and [osx-setup.sh script](#osxsh-script) contain terminal customizations.
 
 ### iTerm2
 
@@ -458,7 +454,7 @@ Package managers make it so much easier to install and update applications (for 
 
 #### Installation
 
-The [brew.sh script](#brewsh-script) installs Homebrew and a number of useful Homebrew formulae and apps.
+The [fresh-setup.sh script](#brewsh-script) installs Homebrew and a number of useful Homebrew formulae and apps.
 
 If you prefer to install it separately, run the following command and follow the steps on the screen:
 
